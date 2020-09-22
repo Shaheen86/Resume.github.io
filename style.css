@@ -1,0 +1,48 @@
+body{
+  border:2px solid black;
+  padding:50px;
+}
+a{
+  text-decoration: none;
+}
+img{
+	width:250px;
+	height: 200px;
+	border-radius: 10px 10px 10px 10px;
+	padding: 10px;
+}
+.Card1, .Card2{
+  border:2px solid black;
+  box-shadow:4px 4px 4px 4px;
+  width:300px;
+  height:380px;
+  text-align:center;
+}
+.box{
+  display: flex;
+  justify-content: space-around;
+}
+@media only screen and (min-width:320px) and (max-width:480px){
+  body{
+    border-collapse: collapse;
+    padding:7px;
+  }
+img{
+  width: 120px;
+  height:120px;
+  padding:2px;
+}
+.Card1, .Card2{
+  border:2px solid black;
+  box-shadow:2px 2px 2px 2px;
+  text-align:center;
+  width:280px;
+  height:260px;
+  font-size:12px;
+  margin-bottom:20px;
+}
+.box{
+  display:flex;
+  flex-direction: column;
+}
+}
